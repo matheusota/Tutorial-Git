@@ -1,0 +1,13 @@
+git init -> inicia pasta como repositorio do git
+git log -> mostra historico dos commits
+git diff [id1] [id2] -> compara commit de id1 com commit de id2
+git checkout [id/branch] -> muda para o estado do repositório no commit id ou para o commit mais recente do ramo branch
+git clone [url] -> copia para o computador repositorio em url
+git add [arquivo] -> adiciona arquivo para a staging area
+git reset [arquivo] -> remove arquivo da staging area
+git commit -> comita os arquivos na staging area
+git branch [branch] -> cria ramo branch
+git merge [branches] -> junta em um ramo tds branches
+git remote add origin [url] -> cria um repositorio remoto chamado origin em url
+git push origin master -> envia tds commits alcancaveis por master para o repositorio origin
+git pull origin master -> atualiza o branch master com os commits em origin
